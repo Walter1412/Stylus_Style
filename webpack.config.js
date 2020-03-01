@@ -33,6 +33,13 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js']
   },
+  devServer: {
+      contentBase: './dist',
+      // 默认8080，可不写
+      port: 8080,
+      // 热更新，无需刷新
+      hot: true
+    },
   plugins: [
       new HtmlWebpackPlugin({
         template: "./src/index.pug"
