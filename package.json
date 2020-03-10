@@ -1,8 +1,7 @@
 {
   "name": "stylus_style",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
-  "main": "index.js",
   "files": [
     "styles/**/*.styl"
   ],
