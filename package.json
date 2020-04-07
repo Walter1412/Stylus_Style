@@ -1,6 +1,6 @@
 {
   "name": "@fe_org/stylus_style",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "files": [
     "styles/**/*.styl"
@@ -43,6 +43,5 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
   }
 }
